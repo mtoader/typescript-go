@@ -1,0 +1,33 @@
+package util
+
+import "github.com/microsoft/typescript-go/internal/fourslash/tests/util"
+
+// This file re-exports all public types, functions, constants, and variables from the internal package.
+
+// Functions (exported as variables)
+var CompletionFunctionMembersPlus = fourslash_test.CompletionFunctionMembersPlus
+var CompletionFunctionMembersWithPrototypePlus = fourslash_test.CompletionFunctionMembersWithPrototypePlus
+var CompletionGlobalTypesPlus = fourslash_test.CompletionGlobalTypesPlus
+var CompletionGlobalsInJSPlus = fourslash_test.CompletionGlobalsInJSPlus
+var CompletionGlobalsPlus = fourslash_test.CompletionGlobalsPlus
+var CompletionTypeKeywordsPlus = fourslash_test.CompletionTypeKeywordsPlus
+
+// Variables
+var CompletionClassElementInJSKeywords = fourslash_test.CompletionClassElementInJSKeywords
+var CompletionClassElementKeywords = fourslash_test.CompletionClassElementKeywords
+var CompletionConstructorParameterKeywords = fourslash_test.CompletionConstructorParameterKeywords
+var CompletionFunctionMembers = fourslash_test.CompletionFunctionMembers
+var CompletionFunctionMembersWithPrototype = fourslash_test.CompletionFunctionMembersWithPrototype
+var CompletionGlobalInJSKeywords = fourslash_test.CompletionGlobalInJSKeywords
+var CompletionGlobalKeywords = fourslash_test.CompletionGlobalKeywords
+var CompletionGlobalThisItem = fourslash_test.CompletionGlobalThisItem
+var CompletionGlobalTypeDecls = fourslash_test.CompletionGlobalTypeDecls
+var CompletionGlobalTypes = fourslash_test.CompletionGlobalTypes
+var CompletionGlobalVars = fourslash_test.CompletionGlobalVars
+var CompletionGlobals = fourslash_test.CompletionGlobals
+var CompletionTypeAssertionKeywords = fourslash_test.CompletionTypeAssertionKeywords
+var CompletionTypeKeywords = fourslash_test.CompletionTypeKeywords
+var CompletionUndefinedVarItem = fourslash_test.CompletionUndefinedVarItem
+var DefaultCommitCharacters = fourslash_test.DefaultCommitCharacters
+var Ignored = fourslash_test.Ignored
+

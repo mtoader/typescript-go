@@ -1,0 +1,59 @@
+package lsutil
+
+import "github.com/microsoft/typescript-go/internal/ls/lsutil"
+
+// This file re-exports all public types, functions, constants, and variables from the internal package.
+
+// Types
+type IncludeInlayParameterNameHints = lsutil.IncludeInlayParameterNameHints
+type IncludePackageJsonAutoImports = lsutil.IncludePackageJsonAutoImports
+type JsxAttributeCompletionStyle = lsutil.JsxAttributeCompletionStyle
+type OrganizeImportsCaseFirst = lsutil.OrganizeImportsCaseFirst
+type OrganizeImportsCollation = lsutil.OrganizeImportsCollation
+type OrganizeImportsTypeOrder = lsutil.OrganizeImportsTypeOrder
+type QuotePreference = lsutil.QuotePreference
+type UserPreferences = lsutil.UserPreferences
+
+// Functions (exported as variables)
+var AssertHasRealPosition = lsutil.AssertHasRealPosition
+var GetFirstToken = lsutil.GetFirstToken
+var GetLastChild = lsutil.GetLastChild
+var GetLastToken = lsutil.GetLastToken
+var GetLastVisitedChild = lsutil.GetLastVisitedChild
+var NewDefaultUserPreferences = lsutil.NewDefaultUserPreferences
+var NodeIsASICandidate = lsutil.NodeIsASICandidate
+var PositionIsASICandidate = lsutil.PositionIsASICandidate
+var ProbablyUsesSemicolons = lsutil.ProbablyUsesSemicolons
+var ShouldUseUriStyleNodeCoreModules = lsutil.ShouldUseUriStyleNodeCoreModules
+var SyntaxMayBeASICandidate = lsutil.SyntaxMayBeASICandidate
+var SyntaxRequiresTrailingCommaOrSemicolonOrASI = lsutil.SyntaxRequiresTrailingCommaOrSemicolonOrASI
+var SyntaxRequiresTrailingFunctionBlockOrSemicolonOrASI = lsutil.SyntaxRequiresTrailingFunctionBlockOrSemicolonOrASI
+var SyntaxRequiresTrailingModuleBlockOrSemicolonOrASI = lsutil.SyntaxRequiresTrailingModuleBlockOrSemicolonOrASI
+var SyntaxRequiresTrailingSemicolonOrASI = lsutil.SyntaxRequiresTrailingSemicolonOrASI
+
+// Constants
+const IncludeInlayParameterNameHintsAll = lsutil.IncludeInlayParameterNameHintsAll
+const IncludeInlayParameterNameHintsLiterals = lsutil.IncludeInlayParameterNameHintsLiterals
+const IncludeInlayParameterNameHintsNone = lsutil.IncludeInlayParameterNameHintsNone
+const IncludePackageJsonAutoImportsAuto = lsutil.IncludePackageJsonAutoImportsAuto
+const IncludePackageJsonAutoImportsOff = lsutil.IncludePackageJsonAutoImportsOff
+const IncludePackageJsonAutoImportsOn = lsutil.IncludePackageJsonAutoImportsOn
+const IncludePackageJsonAutoImportsUnknown = lsutil.IncludePackageJsonAutoImportsUnknown
+const JsxAttributeCompletionStyleAuto = lsutil.JsxAttributeCompletionStyleAuto
+const JsxAttributeCompletionStyleBraces = lsutil.JsxAttributeCompletionStyleBraces
+const JsxAttributeCompletionStyleNone = lsutil.JsxAttributeCompletionStyleNone
+const JsxAttributeCompletionStyleUnknown = lsutil.JsxAttributeCompletionStyleUnknown
+const OrganizeImportsCaseFirstFalse = lsutil.OrganizeImportsCaseFirstFalse
+const OrganizeImportsCaseFirstLower = lsutil.OrganizeImportsCaseFirstLower
+const OrganizeImportsCaseFirstUpper = lsutil.OrganizeImportsCaseFirstUpper
+const OrganizeImportsCollationOrdinal = lsutil.OrganizeImportsCollationOrdinal
+const OrganizeImportsCollationUnicode = lsutil.OrganizeImportsCollationUnicode
+const OrganizeImportsTypeOrderAuto = lsutil.OrganizeImportsTypeOrderAuto
+const OrganizeImportsTypeOrderFirst = lsutil.OrganizeImportsTypeOrderFirst
+const OrganizeImportsTypeOrderInline = lsutil.OrganizeImportsTypeOrderInline
+const OrganizeImportsTypeOrderLast = lsutil.OrganizeImportsTypeOrderLast
+const QuotePreferenceAuto = lsutil.QuotePreferenceAuto
+const QuotePreferenceDouble = lsutil.QuotePreferenceDouble
+const QuotePreferenceSingle = lsutil.QuotePreferenceSingle
+const QuotePreferenceUnknown = lsutil.QuotePreferenceUnknown
+

@@ -1,0 +1,65 @@
+package modulespecifiers
+
+import "github.com/microsoft/typescript-go/internal/modulespecifiers"
+
+// This file re-exports all public types, functions, constants, and variables from the internal package.
+
+// Types
+type CheckerShape = modulespecifiers.CheckerShape
+type ImportModuleSpecifierEndingPreference = modulespecifiers.ImportModuleSpecifierEndingPreference
+type ImportModuleSpecifierPreference = modulespecifiers.ImportModuleSpecifierPreference
+type Info = modulespecifiers.Info
+type MatchingMode = modulespecifiers.MatchingMode
+type ModulePath = modulespecifiers.ModulePath
+type ModuleSpecifierEnding = modulespecifiers.ModuleSpecifierEnding
+type ModuleSpecifierGenerationHost = modulespecifiers.ModuleSpecifierGenerationHost
+type ModuleSpecifierOptions = modulespecifiers.ModuleSpecifierOptions
+type ModuleSpecifierPreferences = modulespecifiers.ModuleSpecifierPreferences
+type NodeModulePathParts = modulespecifiers.NodeModulePathParts
+type PackageJsonInfo = modulespecifiers.PackageJsonInfo
+type RelativePreferenceKind = modulespecifiers.RelativePreferenceKind
+type ResultKind = modulespecifiers.ResultKind
+type SourceFileForSpecifierGeneration = modulespecifiers.SourceFileForSpecifierGeneration
+type UserPreferences = modulespecifiers.UserPreferences
+
+// Functions (exported as variables)
+var ContainsNodeModules = modulespecifiers.ContainsNodeModules
+var CountPathComponents = modulespecifiers.CountPathComponents
+var GetEachFileNameOfModule = modulespecifiers.GetEachFileNameOfModule
+var GetModuleSpecifier = modulespecifiers.GetModuleSpecifier
+var GetModuleSpecifiers = modulespecifiers.GetModuleSpecifiers
+var GetModuleSpecifiersWithInfo = modulespecifiers.GetModuleSpecifiersWithInfo
+var GetNodeModulePathParts = modulespecifiers.GetNodeModulePathParts
+var GetNodeModulesPackageName = modulespecifiers.GetNodeModulesPackageName
+var GetPackageNameFromTypesPackageName = modulespecifiers.GetPackageNameFromTypesPackageName
+var PathIsBareSpecifier = modulespecifiers.PathIsBareSpecifier
+
+// Constants
+const ImportModuleSpecifierEndingPreferenceAuto = modulespecifiers.ImportModuleSpecifierEndingPreferenceAuto
+const ImportModuleSpecifierEndingPreferenceIndex = modulespecifiers.ImportModuleSpecifierEndingPreferenceIndex
+const ImportModuleSpecifierEndingPreferenceJs = modulespecifiers.ImportModuleSpecifierEndingPreferenceJs
+const ImportModuleSpecifierEndingPreferenceMinimal = modulespecifiers.ImportModuleSpecifierEndingPreferenceMinimal
+const ImportModuleSpecifierEndingPreferenceNone = modulespecifiers.ImportModuleSpecifierEndingPreferenceNone
+const ImportModuleSpecifierPreferenceNonRelative = modulespecifiers.ImportModuleSpecifierPreferenceNonRelative
+const ImportModuleSpecifierPreferenceNone = modulespecifiers.ImportModuleSpecifierPreferenceNone
+const ImportModuleSpecifierPreferenceProjectRelative = modulespecifiers.ImportModuleSpecifierPreferenceProjectRelative
+const ImportModuleSpecifierPreferenceRelative = modulespecifiers.ImportModuleSpecifierPreferenceRelative
+const ImportModuleSpecifierPreferenceShortest = modulespecifiers.ImportModuleSpecifierPreferenceShortest
+const MatchingModeDirectory = modulespecifiers.MatchingModeDirectory
+const MatchingModeExact = modulespecifiers.MatchingModeExact
+const MatchingModePattern = modulespecifiers.MatchingModePattern
+const ModuleSpecifierEndingIndex = modulespecifiers.ModuleSpecifierEndingIndex
+const ModuleSpecifierEndingJsExtension = modulespecifiers.ModuleSpecifierEndingJsExtension
+const ModuleSpecifierEndingMinimal = modulespecifiers.ModuleSpecifierEndingMinimal
+const ModuleSpecifierEndingTsExtension = modulespecifiers.ModuleSpecifierEndingTsExtension
+const RelativePreferenceExternalNonRelative = modulespecifiers.RelativePreferenceExternalNonRelative
+const RelativePreferenceNonRelative = modulespecifiers.RelativePreferenceNonRelative
+const RelativePreferenceRelative = modulespecifiers.RelativePreferenceRelative
+const RelativePreferenceShortest = modulespecifiers.RelativePreferenceShortest
+const ResultKindAmbient = modulespecifiers.ResultKindAmbient
+const ResultKindNodeModules = modulespecifiers.ResultKindNodeModules
+const ResultKindNone = modulespecifiers.ResultKindNone
+const ResultKindPaths = modulespecifiers.ResultKindPaths
+const ResultKindRedirect = modulespecifiers.ResultKindRedirect
+const ResultKindRelative = modulespecifiers.ResultKindRelative
+

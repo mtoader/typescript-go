@@ -1,0 +1,50 @@
+package nodebuilder
+
+import "github.com/microsoft/typescript-go/internal/nodebuilder"
+
+// This file re-exports all public types, functions, constants, and variables from the internal package.
+
+// Types
+type Flags = nodebuilder.Flags
+type InternalFlags = nodebuilder.InternalFlags
+type SymbolTracker = nodebuilder.SymbolTracker
+
+// Constants
+const FlagsAllowAnonymousIdentifier = nodebuilder.FlagsAllowAnonymousIdentifier
+const FlagsAllowEmptyIndexInfoType = nodebuilder.FlagsAllowEmptyIndexInfoType
+const FlagsAllowEmptyTuple = nodebuilder.FlagsAllowEmptyTuple
+const FlagsAllowEmptyUnionOrIntersection = nodebuilder.FlagsAllowEmptyUnionOrIntersection
+const FlagsAllowNodeModulesRelativePaths = nodebuilder.FlagsAllowNodeModulesRelativePaths
+const FlagsAllowQualifiedNameInPlaceOfIdentifier = nodebuilder.FlagsAllowQualifiedNameInPlaceOfIdentifier
+const FlagsAllowThisInObjectLiteral = nodebuilder.FlagsAllowThisInObjectLiteral
+const FlagsAllowUniqueESSymbolType = nodebuilder.FlagsAllowUniqueESSymbolType
+const FlagsForbidIndexedAccessSymbolReferences = nodebuilder.FlagsForbidIndexedAccessSymbolReferences
+const FlagsGenerateNamesForShadowedTypeParams = nodebuilder.FlagsGenerateNamesForShadowedTypeParams
+const FlagsIgnoreErrors = nodebuilder.FlagsIgnoreErrors
+const FlagsInInitialEntityName = nodebuilder.FlagsInInitialEntityName
+const FlagsInObjectTypeLiteral = nodebuilder.FlagsInObjectTypeLiteral
+const FlagsInTypeAlias = nodebuilder.FlagsInTypeAlias
+const FlagsMultilineObjectLiterals = nodebuilder.FlagsMultilineObjectLiterals
+const FlagsNoTruncation = nodebuilder.FlagsNoTruncation
+const FlagsNoTypeReduction = nodebuilder.FlagsNoTypeReduction
+const FlagsNone = nodebuilder.FlagsNone
+const FlagsOmitParameterModifiers = nodebuilder.FlagsOmitParameterModifiers
+const FlagsOmitThisParameter = nodebuilder.FlagsOmitThisParameter
+const FlagsSuppressAnyReturnType = nodebuilder.FlagsSuppressAnyReturnType
+const FlagsUseAliasDefinedOutsideCurrentScope = nodebuilder.FlagsUseAliasDefinedOutsideCurrentScope
+const FlagsUseFullyQualifiedType = nodebuilder.FlagsUseFullyQualifiedType
+const FlagsUseOnlyExternalAliasing = nodebuilder.FlagsUseOnlyExternalAliasing
+const FlagsUseSingleQuotesForStringLiteralType = nodebuilder.FlagsUseSingleQuotesForStringLiteralType
+const FlagsUseStructuralFallback = nodebuilder.FlagsUseStructuralFallback
+const FlagsUseTypeOfFunction = nodebuilder.FlagsUseTypeOfFunction
+const FlagsWriteArrayAsGenericType = nodebuilder.FlagsWriteArrayAsGenericType
+const FlagsWriteCallStyleSignature = nodebuilder.FlagsWriteCallStyleSignature
+const FlagsWriteClassExpressionAsTypeLiteral = nodebuilder.FlagsWriteClassExpressionAsTypeLiteral
+const FlagsWriteTypeArgumentsOfSignature = nodebuilder.FlagsWriteTypeArgumentsOfSignature
+const FlagsWriteTypeParametersInQualifiedName = nodebuilder.FlagsWriteTypeParametersInQualifiedName
+const InternalFlagsAllowUnresolvedNames = nodebuilder.InternalFlagsAllowUnresolvedNames
+const InternalFlagsDoNotIncludeSymbolChain = nodebuilder.InternalFlagsDoNotIncludeSymbolChain
+const InternalFlagsNoSyntacticPrinter = nodebuilder.InternalFlagsNoSyntacticPrinter
+const InternalFlagsNone = nodebuilder.InternalFlagsNone
+const InternalFlagsWriteComputedProps = nodebuilder.InternalFlagsWriteComputedProps
+
